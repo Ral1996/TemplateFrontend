@@ -14,7 +14,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/test/resources/features/",
         glue = "com.ral1996.sv.steps",
-        tags = "@ValidCredentials"
+        tags = "@EndpointGETWithParameter"
 )
 
 public class RunnerTest {  }

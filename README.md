@@ -1,6 +1,23 @@
-# TemplateFrontend
- 
-Automation Template Frontend With Java, Selenium, POM (Page Object Model) and SerenityBDD.
+<div align="center">
+   <h1>💻 TemplateFrontend </h1>
+   <hr>
+   <p>
+      Automation Template Frontend With Java, Selenium, POM (Page Object Model) and SerenityBDD.
+   </p>
+</div>
+
+<div align="center">
+
+   ![Github Badge](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
+   ![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
+   ![Window10 Badge](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
+   ![Java Badge](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+   ![IntelliJ_IDEA Badge](https://img.shields.io/badge/IntelliJ_IDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white)
+   ![Firefox Badge](https://img.shields.io/badge/Firefox_Browser-FF7139?style=for-the-badge&logo=Firefox-Browser&logoColor=white)
+   ![Google_Chrome Badge](https://img.shields.io/badge/Google_chrome-4285F4?style=for-the-badge&logo=Google-chrome&logoColor=white)
+   ![Microsoft_Edge Badge](https://img.shields.io/badge/Microsoft_Edge-0078D7?style=for-the-badge&logo=Microsoft-edge&logoColor=white)
+
+</div>
 
 ## Developer
 
@@ -70,14 +87,18 @@ for this case, we have defined configurations for a file "config-stage.propertie
       │                          ├── Saucelabs.java
       │                    ├── pages
       │                          ├── LoginPage.java
+      │                          ├── EndpointPage.java
       │                    ├── steps
       │                          ├── LoginSteps.java
+      │                          ├── EndpointSteps.java
       │                    ├── utilities
       │                          ├── ConfigReader.java
       │                          ├── ProgramConstants.java
       │                    ├── RunnerTest.java
       │        ├── resources
       │              ├── features
+      │                    ├── Endpoint
+      │                          ├── Endpoint.feature
       │                    ├── Login
       │                          ├── Login.feature
       │              ├── config-develop.properties
@@ -100,3 +121,11 @@ Contributions are always welcome!
 See `contributing.md` for ways to get started.
 
 Please adhere to this project's `code of conduct`.
+
+## 🔑 License
+
+[MIT](#) - Created by team-template-fronted.
+
+## ✅ Pendientes
+
+- [ ] Implementar Middleware de manera generica

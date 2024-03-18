@@ -14,6 +14,8 @@ public final class ProgramConstants {
     public static final String BASE_URL = "base.url";
     public static final String USER_SITE = "user.site";
     public static final String PASS_SITE = "pass.site";
+    public static final String BASE_URL_POKEMON = "https://dex.pokemonshowdown.com/";
+    public static final String API_GET_PARAMS_POKEMON = "https://pokeapi.co/api/v2/pokemon/";
 
     // Constants for class "Saucelabs"
     public static final String SET_PLATFORM_NAME = "Windows 11";
