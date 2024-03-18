@@ -128,4 +128,14 @@ Please adhere to this project's `code of conduct`.
 
 ## ✅ Pendientes
 
-- [ ] Implementar Middleware de manera generica
+- [ ] Solventar WARNING.
+
+   ```bash
+      [WARNING] 
+      java.lang.ClassNotFoundException: com.ral1996.sv.utilities.ConfigReader
+         at org.codehaus.mojo.exec.URLClassLoaderBuilder$ExecJavaClassLoader.loadClass (URLClassLoaderBuilder.java:198)
+         at java.lang.ClassLoader.loadClass (ClassLoader.java:526)
+         at org.codehaus.mojo.exec.ExecJavaMojo$1.run (ExecJavaMojo.java:271)
+         at java.lang.Thread.run (Thread.java:1583)
+   ```
+   
